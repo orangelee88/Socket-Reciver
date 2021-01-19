@@ -16,7 +16,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Socket">
-        <activity android:name=".Client"></activity>
         <activity android:name=".Reciver">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

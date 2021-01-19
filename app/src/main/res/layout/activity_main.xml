@@ -7,13 +7,9 @@
     tools:context=".Reciver">
 
     <LinearLayout
-        android:layout_width="127dp"
-        android:layout_height="83dp"
-        android:layout_marginStart="142dp"
-        android:layout_marginLeft="142dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="142dp"
-        android:layout_marginRight="142dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="180dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,11 +17,11 @@
 
         <TextView
             android:id="@+id/test2"
-            android:layout_width="121dp"
-            android:layout_height="69dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
             android:background="#00BCD4"
             android:gravity="center"
-            android:text="Hello"
+            android:text="資料接收區"
             android:textColor="@color/black"
             android:textSize="30dp"
             tools:ignore="MissingConstraints" />
@@ -34,7 +30,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="76dp"
+        android:layout_height="120dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="110dp"
@@ -48,10 +44,10 @@
         <TextView
             android:id="@+id/test"
             android:layout_width="match_parent"
-            android:layout_height="63dp"
+            android:layout_height="85dp"
             android:background="#2196F3"
             android:gravity="center"
-            android:text="歡迎使用"
+            android:text="IP顯示"
             android:textColor="@color/black"
             android:textSize="30dp"
             tools:ignore="MissingConstraints" />
